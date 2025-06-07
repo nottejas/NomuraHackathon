@@ -20,7 +20,7 @@ function RegisterForm() {
   };
 
   return (
-    <form onSubmit={handleRegister}>
+    <form onSubmit={handleRegister} style={{ paddingTop: '6rem' }}>
       <input
         type="text"
         value={username}

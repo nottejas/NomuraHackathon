@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
-  const handleRegister = async (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
     try {
       const response = await fetch('http://localhost:5000/api/auth/login', {
@@ -13,14 +15,20 @@ function LoginForm() {
         body: JSON.stringify({ username, password }),
       });
       const data = await response.json();
-      alert(data.msg);
+      if (response.ok) {
+        alert('Login Successful');
+        localStorage.setItem('username', data.username);
+        navigate('/');
+      } else {
+        alert(data.msg || 'Login failed');
+      }
     } catch (error) {
-      console.error('Registration error:', error);
+      console.error('Login error:', error);
     }
   };
 
   return (
-    <form onSubmit={handleRegister}>
+    <form onSubmit={handleLogin} style={{ paddingTop: '6rem' }}>
       <input
         type="text"
         value={username}

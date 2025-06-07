@@ -6,10 +6,8 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Simulating user session check (e.g., from localStorage or context)
     const user = localStorage.getItem('username');
     if (!user) {
-      // Redirect to login if not logged in
       navigate('/login');
     } else {
       setUsername(user);
@@ -22,8 +20,8 @@ function Home() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Welcome, {username || 'Guest'}!</h1>
+    <div style={{ padding: '6rem 2rem' }}>
+      <h1>Welcome, {username}!</h1>
       <p>This is your dashboard.</p>
       <button onClick={handleLogout} className="btn btn-danger">Logout</button>
     </div>

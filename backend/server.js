@@ -4,32 +4,25 @@ const cors = require('cors');
 require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
+const chatRoute = require('./routes/chat')
 
 const app = express();
 
 // Middleware
 app.use(express.json());
-
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:3000'];
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like Postman or curl)
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: 'http://localhost:5173', // React app
   credentials: true
 }));
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('✅ MongoDB Connected'))
-  .catch(err => console.error('❌ MongoDB connection error:', err.message));
+  .then(() => console.log('MongoDB Connected'))
+  .catch(err => console.error('MongoDB connection error:', err.message));
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/chat', chatRoute)
 
 // Server
 const PORT = process.env.PORT || 5000;

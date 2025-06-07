@@ -1,24 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import BasicExample from './components/BasicExample'
-import Button from 'react-bootstrap/Button';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import RegisterForm from './components/RegisterForm'
-import LoginForm from './components/LoginForm'
-import Home from './components/Home'
+import Home from './components/Home';
+import LoginForm from './components/LoginForm';
+import RegisterForm from './components/RegisterForm';
+import BasicExample from './components/BasicExample';
+import Chatbot from './components/Chatbot';
+
 function App() {
   return (
     <Router>
       <BasicExample />
       <Routes>
-        <Route path="/register" element={<RegisterForm />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/login" element={<LoginForm />} />
-        <Route path='/' element={<Home />} /> 
+        <Route path="/register" element={<RegisterForm />} />
+        <Route path='/chat' element={<Chatbot />} />
       </Routes>
     </Router>
   );
 }
 
-export default App
+export default App;
