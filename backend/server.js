@@ -5,6 +5,8 @@ require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
 const chatRoute = require('./routes/chat')
+const eventRoutes = require('./routes/event');
+
 
 const app = express();
 
@@ -17,12 +19,13 @@ app.use(cors({
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.error('MongoDB connection error:', err.message));
+.then(() => console.log('MongoDB Connected'))
+.catch(err => console.error('MongoDB connection error:', err.message));
 
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/chat', chatRoute)
+app.use('/api/events', eventRoutes);
 
 // Server
 const PORT = process.env.PORT || 5000;

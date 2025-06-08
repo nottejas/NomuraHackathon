@@ -17,6 +17,9 @@ function BasicExample() {
             <Nav.Link as={Link} to="/chat">Chat</Nav.Link>
             <Nav.Link as={Link} to="/qr">Qr</Nav.Link>
             <Nav.Link as={Link} to="/admin-login">AdminLogin</Nav.Link>
+            <Nav.Link as={Link} to="/admin/create-event">Create Event</Nav.Link>
+            <Nav.Link as={Link} to="/events">Events</Nav.Link>
+
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/action1">Action</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/action2">Another action</NavDropdown.Item>

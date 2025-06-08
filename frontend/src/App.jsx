@@ -7,6 +7,9 @@ import Chatbot from './components/Chatbot';
 import Qr from './components/Qr';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
+import AdminCreateEvent from './pages/AdminCreateEvent';
+import EventCard from './components/EventCard';
+import EventsList from './components/EventList';
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
         <Route path='/qr' element={<Qr />}/>
         <Route path='/admin-login'element={<AdminLogin />} />
         <Route path='/admin-dashboard' element={<AdminDashboard />} />
+        <Route path='/admin/create-event' element={<AdminCreateEvent />} />
+        <Route path='/events' element={<EventsList />} />
       </Routes>
     </Router>
   );
