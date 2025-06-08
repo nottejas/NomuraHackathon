@@ -4,7 +4,26 @@ const User = require('../models/User');
 
 const router = express.Router();
 
-// Register
+// Environment variables for admin login
+const ADMIN_USER = process.env.ADMIN_USER || 'admin';
+const ADMIN_PASS = process.env.ADMIN_PASS || 'admin123';
+
+// 🔐 Admin Login Route
+router.post('/admin-login', async (req, res) => {
+  try {
+    const { username, password } = req.body;
+
+    if (username === ADMIN_USER && password === ADMIN_PASS) {
+      return res.status(200).json({ msg: 'Admin login successful', role: 'admin' });
+    } else {
+      return res.status(401).json({ msg: 'Invalid admin credentials' });
+    }
+  } catch (err) {
+    res.status(500).json({ msg: 'Server error', error: err.message });
+  }
+});
+
+// 👤 User Registration
 router.post('/register', async (req, res) => {
   try {
     const { username, password } = req.body;
@@ -22,7 +41,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Login
+// 🔑 User Login
 router.post('/login', async (req, res) => {
   try {
     const { username, password } = req.body;
