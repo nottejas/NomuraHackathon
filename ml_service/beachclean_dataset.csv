@@ -1,0 +1,201 @@
+Item_ID,Item_Name,Category,Material_Type,Impact_Level,Environmental_Effects,Risk_Score,Emission_Impact_CO2e,Size_Category,Weight_grams,Volume_cm3,Cleanup_Difficulty,Recyclable,Biodegradable,Decomposition_Time,Disposal_Method,Non_Recoverable,Common_Location,Common_Source,Hazard_Type,Frequency_Score,Collection_Priority,Equipment_Needed
+1,Plastic Bottles,Beverage Containers,Plastic,High,Releases microplastics and toxic chemicals,4,0.8,Medium,25,450,Easy,Yes,No,450 years,Recycle Bin,No,Shoreline,Consumer Waste,Wildlife,9,High,Gloves
+2,Bottle Caps,Beverage Containers,Plastic,High,Small size causes choking hazard for marine life,4,0.1,Small,3,8,Medium,Yes,No,400 years,Recycle Bin,No,Sand Surface,Consumer Waste,Wildlife,8,High,Gloves
+3,Aluminum Cans,Beverage Containers,Metal,Medium,Cuts wildlife and leaches aluminum,3,2.1,Medium,18,355,Easy,Yes,No,200 years,Recycle Bin,No,Shoreline,Consumer Waste,Wildlife,7,Medium,Gloves
+4,Glass Bottles,Beverage Containers,Glass,Very High,Sharp edges dangerous to all life forms,5,1.2,Medium,350,500,Hard,Yes,No,1000000 years,Recycle Bin,Yes,Rocky Areas,Consumer Waste,Human Health,6,Very High,Safety Gloves
+5,Cigarette Butts,Personal Items,Mixed,Very High,Leaches toxic chemicals into water,5,0.1,Small,1.5,5,Low,No,No,10 years,Landfill,Yes,Shoreline,Personal Waste,Human Health,10,Very High,Tweezers
+6,Food Wrappers,Food Packaging,Plastic,Medium,Blocks digestive systems of marine animals,3,0.3,Small,3,25,Easy,No,No,300 years,Landfill,No,Sand Surface,Consumer Waste,Wildlife,8,Medium,Gloves
+7,Plastic Bags,Shopping Items,Plastic,Very High,Major threat to marine life through ingestion,5,0.6,Medium,5,800,Easy,Yes,No,500 years,Recycle Bin,No,Vegetation,Retail Consumer,Wildlife,7,Very High,Gloves
+8,Straws,Beverage Accessories,Plastic,High,Often ingested by sea life causing internal damage,4,0.05,Small,2,4,Easy,No,No,200 years,Landfill,No,Sand Surface,Food Service,Wildlife,6,High,Gloves
+9,Foam Containers,Food Packaging,Polystyrene,High,Breaks into microplastics and releases toxins,4,1.5,Medium,10,150,Medium,No,No,500 years,Landfill,Yes,Shoreline,Food Service,Environmental,7,High,Gloves
+10,Rope,Fishing Gear,Synthetic,High,Entanglement hazard for marine animals,4,2.8,Large,250,400,Hard,No,No,600 years,Landfill,No,Water Edge,Maritime Fishing,Wildlife,5,High,Cutting Tools
+11,Fishing Line,Fishing Gear,Synthetic,Very High,Major entanglement risk for birds and marine life,5,0.5,Small,10,15,Hard,No,No,600 years,Landfill,No,Rocky Areas,Fishing,Wildlife,6,Very High,Cutting Tools
+12,Fishing Nets,Fishing Gear,Synthetic,Very High,Ghost nets trap and kill marine animals,5,15.2,Large,2500,5000,Very Hard,No,No,600 years,Special Disposal,Yes,Deep Water,Commercial Fishing,Wildlife,3,Very High,Cutting Tools
+13,Fishing Hooks,Fishing Gear,Metal,Very High,Sharp and toxic to marine life,5,0.3,Small,6,2,Hard,No,No,100 years,Hazardous Waste,Yes,Sand Surface,Fishing,Wildlife,4,Very High,Pliers
+14,Buoys,Fishing Gear,Plastic Foam,Medium,Degrades into microplastics,3,5.8,Large,600,2000,Medium,Partial,No,400 years,Landfill,No,Water Edge,Maritime,Environmental,2,Medium,None
+15,Plastic Utensils,Food Service,Plastic,Medium,Ingestion hazard and microplastic source,3,0.2,Small,5,12,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,6,Medium,Gloves
+16,Paper Cups,Beverage Containers,Paper,Low,Wax coating prevents biodegradation,2,0.4,Medium,18,250,Easy,No,Partial,6 months,Landfill,No,Picnic Areas,Food Service,Environmental,5,Low,Gloves
+17,Plastic Cups,Beverage Containers,Plastic,Medium,Microplastic source and ingestion hazard,3,0.3,Medium,10,200,Easy,Yes,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Wildlife,6,Medium,Gloves
+18,Balloons,Recreation,Latex Plastic,Very High,Mistaken for food by marine animals,5,0.8,Small,3,50,Easy,No,Partial,6 months,Landfill,No,Sand Surface,Entertainment,Wildlife,4,Very High,Gloves
+19,Balloon Strings,Recreation,Synthetic,High,Entanglement risk for wildlife,4,0.1,Small,2,5,Medium,No,No,300 years,Landfill,No,Vegetation,Entertainment,Wildlife,3,High,Gloves
+20,Fireworks,Recreation,Mixed,Medium,Toxic chemicals and debris,3,2.1,Small,50,80,Medium,No,No,Varies,Hazardous Waste,Yes,Sand Surface,Entertainment,Environmental,2,Medium,Gloves
+21,Toys,Recreation,Plastic,Medium,Microplastic source and ingestion hazard,3,1.2,Various,100,300,Easy,Partial,No,400 years,Landfill,No,Sand Surface,Consumer Waste,Wildlife,4,Medium,Gloves
+22,Clothing,Personal Items,Textile,Low,Synthetic fibers release microplastics,2,3.5,Medium,300,1000,Easy,Partial,Partial,5 years,Donation Landfill,No,Shoreline,Personal Waste,Environmental,3,Low,Gloves
+23,Shoes,Personal Items,Mixed,Medium,Synthetic materials and microplastics,3,8.2,Medium,500,800,Medium,Partial,Partial,40 years,Landfill,No,Shoreline,Personal Waste,Environmental,3,Medium,Gloves
+24,Diapers,Personal Items,Mixed,Medium,Contains absorbent chemicals and plastics,3,2.8,Medium,100,400,Medium,No,Partial,500 years,Landfill,Yes,Sand Surface,Personal Waste,Human Health,2,Medium,Gloves
+25,Condoms,Personal Items,Latex,Medium,Ingestion hazard for marine life,3,0.2,Small,4,15,Easy,No,Partial,5 years,Landfill,No,Shoreline,Personal Waste,Wildlife,2,Medium,Gloves
+26,Syringes,Medical Waste,Plastic Metal,Very High,Dangerous sharp objects with potential contamination,5,0.8,Small,12,25,Hard,No,No,300 years,Hazardous Waste,Yes,Sand Surface,Medical,Human Health,1,Very High,Safety Equipment
+27,Bandages,Medical Waste,Mixed,Low,Potential contamination risk,2,0.1,Small,5,20,Easy,No,Partial,6 months,Landfill,No,Sand Surface,Medical,Human Health,2,Low,Gloves
+28,Cotton Swabs,Personal Items,Plastic Cotton,Medium,Plastic stems and ingestion hazard,3,0.05,Small,1.5,3,Easy,No,Partial,200 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,4,Medium,Gloves
+29,Foam Pieces,Building Materials,Polystyrene,High,Breaks into harmful microplastics,4,0.8,Small,25,100,Medium,No,No,500 years,Landfill,Yes,Shoreline,Construction,Environmental,6,High,Gloves
+30,Construction Materials,Building Materials,Mixed,Medium,Various toxic substances and debris,3,25.5,Large,2500,8000,Very Hard,Partial,No,50 years,Special Disposal,Yes,Rocky Areas,Construction,Environmental,2,Medium,Heavy Equipment
+31,Tires,Automotive,Rubber,High,Toxic chemicals and microplastics,4,85.2,Large,12000,35000,Very Hard,Yes,No,2000 years,Special Disposal,Yes,Water Edge,Transportation,Environmental,1,High,Heavy Equipment
+32,Car Parts,Automotive,Metal Plastic,Medium,Oil contamination and sharp edges,3,45.8,Large,2500,5000,Hard,Partial,No,100 years,Scrap Metal,Yes,Rocky Areas,Transportation,Environmental,1,Medium,Tools
+33,Appliances,Electronics,Mixed,Medium,Toxic metals and refrigerants,3,125.6,Large,25000,80000,Very Hard,Yes,No,100 years,E-Waste,Yes,Dumping Areas,Consumer Waste,Environmental,1,Medium,Heavy Equipment
+34,Electronics,Electronics,Mixed,Medium,Heavy metals and toxic components,3,85.2,Medium,1000,3000,Medium,Yes,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,2,Medium,Tools
+35,Batteries,Electronics,Mixed,Very High,Toxic chemicals leach into environment,5,12.5,Small,250,80,Hard,Yes,No,100 years,Hazardous Waste,Yes,Sand Surface,Consumer Waste,Environmental,3,Very High,Safety Gloves
+36,Light Bulbs,Electronics,Glass Metal,High,Mercury and toxic components,4,2.1,Small,50,150,Hard,Yes,No,Varies,Hazardous Waste,Yes,Rocky Areas,Consumer Waste,Human Health,2,High,Safety Equipment
+37,Wire,Electronics,Metal Plastic,Medium,Copper contamination and entanglement,3,5.2,Small,50,100,Medium,Yes,No,80 years,Scrap Metal,No,Sand Surface,Various,Wildlife,3,Medium,Cutting Tools
+38,Buckets,Containers,Plastic,Medium,Microplastic source and trap hazard,3,8.5,Medium,300,8000,Easy,Yes,No,400 years,Recycle Bin,No,Shoreline,Various,Wildlife,3,Medium,Gloves
+39,Crates,Containers,Plastic Wood,Low,Microplastics or biodegradable depending on material,2,15.2,Large,1500,25000,Medium,Partial,Partial,Varies,Recycle Bin,No,Water Edge,Commercial,Environmental,2,Low,None
+40,Tarps,Covers,Plastic,Medium,Large microplastic source,3,12.8,Large,500,2000,Medium,No,No,500 years,Landfill,No,Shoreline,Various,Environmental,2,Medium,Cutting Tools
+41,Plastic Sheeting,Covers,Plastic,High,Entanglement and microplastic source,4,8.5,Large,250,5000,Medium,No,No,500 years,Landfill,No,Vegetation,Construction,Wildlife,3,High,Cutting Tools
+42,Foam Padding,Packaging,Polystyrene,High,Microplastic pollution,4,2.8,Medium,50,500,Medium,No,No,500 years,Landfill,Yes,Shoreline,Shipping,Environmental,4,High,Gloves
+43,Bubble Wrap,Packaging,Plastic,Medium,Microplastic source and ingestion hazard,3,1.2,Medium,25,800,Easy,No,No,300 years,Landfill,No,Sand Surface,Shipping,Wildlife,4,Medium,Gloves
+44,Cardboard,Packaging,Paper,Low,Generally biodegradable but may have plastic coating,1,2.5,Medium,250,5000,Easy,Yes,Yes,2 months,Recycle Bin,No,Picnic Areas,Shipping,Environmental,5,Low,Gloves
+45,Wooden Crates,Containers,Wood,Low,Biodegradable but may have treated chemicals,1,35.2,Large,2500,40000,Medium,Partial,Yes,10 years,Compost,No,Water Edge,Shipping,Environmental,1,Low,Tools
+46,Glass Fragments,Broken Items,Glass,Very High,Extremely dangerous sharp edges,5,0.8,Small,25,20,Hard,Yes,No,1000000 years,Recycle Bin,Yes,Rocky Areas,Various,Human Health,7,Very High,Safety Equipment
+47,Ceramic Pieces,Broken Items,Ceramic,High,Sharp edges and long degradation,4,1.5,Small,50,30,Hard,No,No,1000000 years,Landfill,Yes,Rocky Areas,Various,Human Health,3,High,Safety Gloves
+48,Plastic Fragments,Microplastics,Plastic,High,Microplastic pollution and ingestion,4,0.2,Small,5,10,Hard,No,No,400 years,Landfill,Yes,Sand Surface,Various,Environmental,9,High,Fine Tools
+49,Cigarette Lighters,Personal Items,Plastic Metal,Medium,Butane gas and plastic pollution,3,1.8,Small,20,40,Easy,No,No,100 years,Hazardous Waste,Yes,Sand Surface,Personal Waste,Environmental,4,Medium,Gloves
+50,Bottle Rings,Packaging,Plastic,Very High,Major entanglement hazard for wildlife,5,0.1,Small,2,15,Easy,Yes,No,400 years,Recycle Bin,No,Shoreline,Beverage Industry,Wildlife,5,Very High,Cutting Tools
+51,Ice Cream Sticks,Food Items,Wood,Low,Biodegradable wooden material,1,0.05,Small,3,8,Easy,No,Yes,6 months,Compost,No,Picnic Areas,Food Service,Environmental,6,Low,Gloves
+52,Candy Wrappers,Food Packaging,Plastic Foil,Medium,Microplastic source and ingestion hazard,3,0.1,Small,1,5,Easy,No,No,300 years,Landfill,No,Sand Surface,Consumer Waste,Wildlife,7,Medium,Gloves
+53,Coffee Cups,Beverage Containers,Paper Plastic,Medium,Plastic lining prevents biodegradation,3,0.8,Medium,28,350,Easy,No,No,30 years,Landfill,No,Picnic Areas,Food Service,Environmental,6,Medium,Gloves
+54,Coffee Lids,Beverage Accessories,Plastic,Medium,Small plastic pollution and ingestion hazard,3,0.1,Small,3,8,Easy,Yes,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Wildlife,5,Medium,Gloves
+55,Stirrers,Beverage Accessories,Plastic Wood,Medium,Ingestion hazard varies by material,2,0.02,Small,1,2,Easy,Partial,Partial,Varies,Varies,No,Picnic Areas,Food Service,Wildlife,5,Medium,Gloves
+56,Food Containers,Food Packaging,Plastic Foam,Medium,Microplastic source and chemical leaching,3,2.5,Medium,60,400,Easy,Partial,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Environmental,7,Medium,Gloves
+57,Aluminum Foil,Food Packaging,Metal,Low,Recyclable but sharp when crumpled,2,8.2,Small,10,50,Easy,Yes,No,200 years,Recycle Bin,No,Picnic Areas,Consumer Waste,Wildlife,4,Low,Gloves
+58,Plastic Wrap,Food Packaging,Plastic,Medium,Entanglement and microplastic source,3,0.3,Small,3,20,Medium,No,No,300 years,Landfill,No,Picnic Areas,Consumer Waste,Wildlife,3,Medium,Gloves
+59,Milk Jugs,Beverage Containers,Plastic,Medium,Large plastic pollution source,3,2.1,Large,75,1900,Easy,Yes,No,450 years,Recycle Bin,No,Shoreline,Consumer Waste,Environmental,4,Medium,Gloves
+60,Detergent Bottles,Household Items,Plastic,Medium,Chemical residue contamination,3,8.5,Large,300,2000,Easy,Yes,No,450 years,Recycle Bin,Yes,Shoreline,Consumer Waste,Environmental,2,Medium,Gloves
+61,Shampoo Bottles,Personal Items,Plastic,Medium,Chemical residue and plastic pollution,3,5.2,Medium,125,800,Easy,Yes,No,450 years,Recycle Bin,No,Shoreline,Consumer Waste,Environmental,3,Medium,Gloves
+62,Toothbrushes,Personal Items,Plastic,Medium,Non-recyclable plastic pollution,3,0.8,Small,18,25,Easy,No,No,400 years,Landfill,No,Sand Surface,Personal Waste,Environmental,4,Medium,Gloves
+63,Razors,Personal Items,Plastic Metal,High,Sharp blades and plastic pollution,4,0.5,Small,10,15,Hard,No,No,100 years,Hazardous Waste,Yes,Sand Surface,Personal Waste,Human Health,2,High,Safety Gloves
+64,Containers with Lids,Containers,Plastic,Medium,Trap hazard and microplastic source,3,3.5,Medium,110,600,Easy,Yes,No,400 years,Recycle Bin,No,Shoreline,Various,Wildlife,5,Medium,Gloves
+65,Pill Bottles,Medical Items,Plastic,Medium,Chemical residue contamination,3,1.8,Small,30,120,Easy,Yes,No,450 years,Recycle Bin,Yes,Sand Surface,Medical,Environmental,2,Medium,Gloves
+66,Sunscreen Bottles,Personal Items,Plastic,Medium,Chemical contamination affects marine life,3,3.2,Medium,125,500,Easy,Yes,No,450 years,Recycle Bin,Yes,Shoreline,Consumer Waste,Environmental,5,Medium,Gloves
+67,Floats,Recreation,Plastic Foam,Medium,Large microplastic source when degraded,3,12.5,Large,1000,15000,Medium,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Deflation Tools
+68,Beach Balls,Recreation,Plastic,Medium,Microplastic source and ingestion hazard,3,2.1,Medium,125,8000,Easy,No,No,400 years,Landfill,No,Sand Surface,Recreation,Wildlife,3,Medium,Gloves
+69,Disposable Cameras,Electronics,Plastic Metal,Medium,Battery acid and electronic waste,3,5.8,Small,200,300,Medium,Partial,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,1,Medium,Gloves
+70,CDs DVDs,Electronics,Plastic Metal,Medium,Non-biodegradable disc pollution,3,0.8,Small,23,100,Easy,No,No,1000000 years,Landfill,Yes,Sand Surface,Consumer Waste,Environmental,2,Medium,Gloves
+71,Tape,Adhesives,Plastic,Medium,Entanglement and microplastic source,3,0.5,Small,25,50,Medium,No,No,300 years,Landfill,No,Various,Various,Wildlife,4,Medium,Gloves
+72,Rubber Gloves,Personal Items,Rubber,Medium,Chemical contamination and ingestion hazard,3,1.2,Small,25,150,Easy,No,Partial,5 years,Landfill,No,Sand Surface,Various,Wildlife,3,Medium,Gloves
+73,Paint Cans,Containers,Metal,High,Toxic paint residue contamination,4,25.8,Medium,500,1500,Hard,No,No,200 years,Hazardous Waste,Yes,Rocky Areas,Construction,Environmental,1,High,Safety Equipment
+74,Oil Containers,Automotive,Plastic Metal,Very High,Toxic oil contamination,5,15.2,Medium,300,1000,Hard,No,No,450 years,Hazardous Waste,Yes,Rocky Areas,Automotive,Environmental,2,Very High,Safety Equipment
+75,Aerosol Cans,Containers,Metal,High,Pressurized gas and chemical contamination,4,8.5,Small,125,400,Hard,No,No,200 years,Hazardous Waste,Yes,Sand Surface,Various,Environmental,3,High,Safety Equipment
+76,Bottle Labels,Packaging,Plastic Paper,Medium,Microplastic source and adhesive contamination,3,0.1,Small,2,10,Medium,No,No,200 years,Landfill,No,Shoreline,Consumer Waste,Environmental,6,Medium,Gloves
+77,Polystyrene Balls,Packaging,Polystyrene,High,Microplastic pollution and ingestion hazard,4,0.5,Small,1,15,Hard,No,No,500 years,Landfill,Yes,Shoreline,Packaging,Wildlife,5,High,Fine Tools
+78,Wet Wipes,Personal Items,Synthetic,Medium,Blocks marine digestive systems,3,0.8,Small,8,25,Easy,No,No,100 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,6,Medium,Gloves
+79,Masks,Personal Items,Synthetic,Medium,Entanglement hazard and microplastic source,3,0.5,Small,5,20,Easy,No,No,450 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,7,Medium,Gloves
+80,Plastic Lids,Containers,Plastic,Medium,Small ingestion hazard and microplastic source,3,0.2,Small,5,15,Easy,Yes,No,400 years,Recycle Bin,No,Sand Surface,Various,Wildlife,8,Medium,Gloves
+81,Tampon Applicators,Personal Items,Plastic,High,Often mistaken for food by marine animals,4,0.3,Small,3,12,Easy,No,No,400 years,Landfill,No,Shoreline,Personal Waste,Wildlife,5,High,Gloves
+82,Hair Ties,Personal Items,Elastic Plastic,Medium,Entanglement hazard for small marine life,3,0.1,Small,1,5,Easy,No,No,200 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,4,Medium,Gloves
+83,Disposable Lighters,Personal Items,Plastic Metal,Medium,Butane contamination and ingestion hazard,3,1.8,Small,12,30,Easy,No,No,400 years,Hazardous Waste,Yes,Sand Surface,Personal Waste,Environmental,3,Medium,Gloves
+84,Plastic Spoons,Food Service,Plastic,Medium,Ingestion and microplastic pollution,3,0.15,Small,3,8,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,5,Medium,Gloves
+85,Plastic Forks,Food Service,Plastic,High,Sharp prongs dangerous to marine life,4,0.2,Small,4,10,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,5,High,Gloves
+86,Plastic Knives,Food Service,Plastic,Medium,Sharp edges and microplastic source,3,0.18,Small,3.5,9,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,4,Medium,Gloves
+87,Pizza Boxes,Food Packaging,Cardboard,Low,Grease contamination prevents recycling,2,1.8,Large,150,2000,Easy,No,Partial,3 months,Landfill,No,Picnic Areas,Food Service,Environmental,3,Low,Gloves
+88,Styrofoam Cups,Beverage Containers,Polystyrene,High,Breaks into toxic microplastics,4,0.8,Medium,8,200,Easy,No,No,500 years,Landfill,Yes,Picnic Areas,Food Service,Environmental,4,High,Gloves
+89,Bottle Corks,Beverage Accessories,Cork Plastic,Low,Natural cork biodegradable synthetic cork not,2,0.05,Small,2,4,Easy,Partial,Partial,Varies,Compost Landfill,No,Sand Surface,Consumer Waste,Environmental,3,Low,Gloves
+90,Dental Floss,Personal Items,Synthetic,High,Entanglement hazard appears like food to fish,4,0.02,Small,0.5,1,Hard,No,No,400 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,2,High,Tweezers
+91,Contact Lenses,Personal Items,Plastic,Medium,Microplastic pollution often invisible,3,0.01,Small,0.1,0.5,Very Hard,No,No,500 years,Landfill,Yes,Sand Water,Personal Waste,Environmental,2,Medium,Fine Tools
+92,Chewing Gum,Personal Items,Synthetic,Medium,Sticky trap hazard and synthetic polymer,3,0.5,Small,2,3,Hard,No,No,5 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,6,Medium,Scraping Tools
+93,Dog Waste Bags,Personal Items,Plastic,Medium,Often not biodegradable despite claims,3,0.8,Small,8,50,Easy,No,Partial,3 years,Landfill,No,Shoreline,Pet Waste,Environmental,4,Medium,Gloves
+94,Tennis Balls,Recreation,Rubber Felt,Medium,Synthetic materials and choking hazard,3,2.1,Medium,58,150,Easy,No,No,400 years,Landfill,No,Sand Surface,Recreation,Wildlife,2,Medium,Gloves
+95,Frisbees,Recreation,Plastic,Medium,Large ingestion hazard and microplastic source,3,3.2,Large,175,800,Easy,No,No,400 years,Landfill,No,Sand Surface,Recreation,Wildlife,2,Medium,Gloves
+96,Kites,Recreation,Plastic Fabric,Medium,Entanglement hazard and synthetic materials,3,1.8,Large,85,2000,Medium,No,Partial,200 years,Landfill,No,Beach Areas,Recreation,Wildlife,1,Medium,Cutting Tools
+97,Sunglasses,Personal Items,Plastic Metal,Medium,Microplastic source and sharp fragments,3,0.8,Small,25,80,Easy,Partial,No,400 years,Landfill,No,Sand Surface,Personal Waste,Environmental,3,Medium,Gloves
+98,Watches,Personal Items,Metal Plastic,Medium,Battery acid and electronic components,3,2.5,Small,45,100,Easy,Partial,No,100 years,E-Waste,Yes,Sand Surface,Personal Waste,Environmental,1,Medium,Gloves
+99,Jewelry,Personal Items,Metal Plastic,Low,Metal corrosion and microplastic beads,2,0.5,Small,8,20,Easy,Partial,No,Varies,Varies,No,Sand Surface,Personal Waste,Environmental,2,Low,Gloves
+100,Fabric Softener Sheets,Household Items,Synthetic,Medium,Chemical residue and synthetic fibers,3,0.2,Small,2,25,Easy,No,No,500 years,Landfill,Yes,Shoreline,Consumer Waste,Environmental,2,Medium,Gloves
+101,Pacifiers,Personal Items,Silicone Plastic,Medium,Choking hazard and synthetic materials,3,0.5,Small,5,15,Easy,No,No,500 years,Landfill,No,Sand Surface,Personal Waste,Wildlife,2,Medium,Gloves
+102,Baby Bottles,Personal Items,Plastic,Medium,Large plastic pollution and chemical leaching,3,2.8,Medium,120,250,Easy,Yes,No,450 years,Recycle Bin,No,Picnic Areas,Personal Waste,Environmental,2,Medium,Gloves
+103,Sippy Cups,Personal Items,Plastic,Medium,Plastic pollution and ingestion hazard,3,1.8,Medium,85,200,Easy,Yes,No,450 years,Recycle Bin,No,Picnic Areas,Personal Waste,Wildlife,3,Medium,Gloves
+104,Ice Packs,Medical Items,Plastic Gel,Medium,Chemical gel contamination,3,3.2,Medium,150,300,Medium,No,No,400 years,Hazardous Waste,Yes,Cooler Areas,Medical Recreation,Environmental,2,Medium,Gloves
+105,Hand Warmers,Recreation,Mixed,Medium,Chemical heating agents,3,1.2,Small,25,50,Easy,No,No,Varies,Hazardous Waste,Yes,Sand Surface,Recreation,Environmental,1,Medium,Gloves
+106,Glow Sticks,Recreation,Plastic Chemical,High,Toxic chemical contents,4,0.8,Small,15,25,Easy,No,No,400 years,Hazardous Waste,Yes,Sand Surface,Entertainment,Environmental,2,High,Safety Gloves
+107,Plastic Spades,Recreation,Plastic,Medium,Beach toy microplastic source,3,2.5,Medium,125,400,Easy,No,No,400 years,Landfill,No,Sand Surface,Recreation,Environmental,4,Medium,Gloves
+108,Sand Buckets,Recreation,Plastic,Medium,Large plastic pollution source,3,3.8,Large,200,2000,Easy,No,No,400 years,Landfill,No,Sand Surface,Recreation,Environmental,5,Medium,Gloves
+109,Beach Umbrellas,Recreation,Metal Fabric,Medium,Metal corrosion and synthetic fabric,3,15.2,Large,2500,8000,Hard,Partial,Partial,50 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Tools
+110,Umbrella Parts,Recreation,Metal Plastic,Medium,Sharp metal and plastic fragments,3,2.8,Medium,150,200,Medium,Partial,No,100 years,Mixed Disposal,No,Beach Areas,Recreation,Wildlife,3,Medium,Tools
+111,Cooler Parts,Recreation,Plastic Foam,Medium,Insulation foam and plastic components,3,8.5,Large,800,5000,Medium,Partial,No,500 years,Landfill,No,Picnic Areas,Recreation,Environmental,2,Medium,Tools
+112,Thermoses,Containers,Metal Plastic,Medium,Mixed materials and insulation,3,5.2,Medium,350,500,Easy,Partial,No,200 years,Mixed Disposal,No,Picnic Areas,Consumer Waste,Environmental,2,Medium,Gloves
+113,Water Bottles,Beverage Containers,Plastic,High,Microplastic source major pollution,4,0.8,Medium,30,500,Easy,Yes,No,450 years,Recycle Bin,No,Shoreline,Consumer Waste,Wildlife,9,High,Gloves
+114,Sports Bottles,Beverage Containers,Plastic,Medium,Specialized plastic pollution,3,1.5,Medium,85,600,Easy,Yes,No,450 years,Recycle Bin,No,Beach Areas,Recreation,Environmental,4,Medium,Gloves
+115,Energy Drink Cans,Beverage Containers,Metal,Medium,Caffeine contamination and sharp edges,3,1.8,Medium,25,330,Easy,Yes,No,200 years,Recycle Bin,No,Sand Surface,Consumer Waste,Wildlife,5,Medium,Gloves
+116,Protein Bar Wrappers,Food Packaging,Plastic Foil,Medium,Multi-layer packaging pollution,3,0.3,Small,3,20,Easy,No,No,400 years,Landfill,No,Beach Areas,Recreation,Wildlife,4,Medium,Gloves
+117,Granola Bar Wrappers,Food Packaging,Plastic,Medium,Small packaging pollution,3,0.2,Small,2,15,Easy,No,No,300 years,Landfill,No,Picnic Areas,Consumer Waste,Wildlife,5,Medium,Gloves
+118,Chip Bags,Food Packaging,Plastic Foil,Medium,Metallized plastic pollution,3,0.8,Medium,8,150,Easy,No,No,400 years,Landfill,No,Picnic Areas,Consumer Waste,Wildlife,7,Medium,Gloves
+119,Cookie Packages,Food Packaging,Plastic,Medium,Food packaging pollution,3,0.5,Small,5,80,Easy,No,No,300 years,Landfill,No,Picnic Areas,Consumer Waste,Wildlife,4,Medium,Gloves
+120,Sandwich Bags,Food Packaging,Plastic,Medium,Food storage pollution,3,0.2,Small,2,100,Easy,No,No,300 years,Landfill,No,Picnic Areas,Consumer Waste,Wildlife,6,Medium,Gloves
+121,Aluminum Trays,Food Packaging,Metal,Medium,Food service pollution,3,2.5,Medium,25,200,Easy,Yes,No,200 years,Recycle Bin,No,Picnic Areas,Food Service,Environmental,3,Medium,Gloves
+122,Plastic Trays,Food Packaging,Plastic,Medium,Food service plastic pollution,3,1.8,Medium,35,300,Easy,Yes,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Environmental,4,Medium,Gloves
+123,Napkins,Food Service,Paper,Low,Biodegradable paper waste,1,0.1,Small,1,10,Easy,No,Yes,2 weeks,Compost,No,Picnic Areas,Food Service,Environmental,6,Low,Gloves
+124,Paper Plates,Food Service,Paper,Low,Often wax-coated prevents composting,2,0.8,Medium,15,200,Easy,Partial,Partial,6 months,Landfill,No,Picnic Areas,Food Service,Environmental,5,Low,Gloves
+125,Plastic Plates,Food Service,Plastic,Medium,Disposable plastic pollution,3,1.2,Medium,25,250,Easy,Yes,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Environmental,4,Medium,Gloves
+126,Styrofoam Plates,Food Service,Polystyrene,High,Toxic microplastic pollution,4,0.8,Medium,12,180,Easy,No,No,500 years,Landfill,Yes,Picnic Areas,Food Service,Environmental,3,High,Gloves
+127,Disposable Bowls,Food Service,Plastic,Medium,Food service plastic waste,3,1.5,Medium,30,300,Easy,Yes,No,400 years,Recycle Bin,No,Picnic Areas,Food Service,Environmental,4,Medium,Gloves
+128,Condiment Packets,Food Packaging,Plastic Foil,Medium,Small packaging major pollution,3,0.1,Small,2,5,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,8,Medium,Gloves
+129,Ketchup Packets,Food Packaging,Plastic,Medium,Food condiment packaging,3,0.1,Small,3,8,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Wildlife,6,Medium,Gloves
+130,Salt Packets,Food Packaging,Paper Plastic,Medium,Mixed material small packaging,3,0.05,Small,1,3,Easy,No,No,200 years,Landfill,No,Picnic Areas,Food Service,Environmental,5,Medium,Gloves
+131,Sugar Packets,Food Packaging,Paper,Low,Paper packaging generally biodegradable,1,0.05,Small,1,4,Easy,No,Yes,1 month,Compost,No,Picnic Areas,Food Service,Environmental,4,Low,Gloves
+132,Creamer Containers,Food Packaging,Plastic,Medium,Single-serve packaging pollution,3,0.2,Small,3,12,Easy,No,No,300 years,Landfill,No,Picnic Areas,Food Service,Environmental,3,Medium,Gloves
+133,Bottle Openers,Tools,Metal,Low,Metal corrosion minimal impact,2,1.5,Small,25,30,Easy,Yes,No,100 years,Scrap Metal,No,Picnic Areas,Consumer Waste,Environmental,2,Low,Gloves
+134,Can Openers,Tools,Metal Plastic,Medium,Mixed materials and sharp edges,3,3.2,Small,85,150,Easy,Partial,No,100 years,Mixed Disposal,No,Picnic Areas,Consumer Waste,Wildlife,1,Medium,Gloves
+135,Plastic Knives,Tools,Plastic,Medium,Sharp plastic implements,3,0.8,Small,8,25,Easy,No,No,300 years,Landfill,No,Picnic Areas,Various,Wildlife,3,Medium,Gloves
+136,Scissors,Tools,Metal Plastic,High,Sharp cutting implements,4,5.2,Small,45,80,Easy,Partial,No,100 years,Mixed Disposal,No,Sand Surface,Various,Human Health,1,High,Safety Gloves
+137,Multi-tools,Tools,Metal,Medium,Sharp metal implements,3,8.5,Small,120,100,Easy,Yes,No,100 years,Scrap Metal,No,Sand Surface,Various,Human Health,1,Medium,Gloves
+138,Carabiners,Recreation,Metal,Low,Metal climbing hardware,2,2.1,Small,15,20,Easy,Yes,No,100 years,Scrap Metal,No,Rocky Areas,Recreation,Environmental,1,Low,Gloves
+139,Tent Stakes,Recreation,Metal,Medium,Sharp metal camping equipment,3,1.8,Small,25,15,Medium,Yes,No,100 years,Scrap Metal,No,Sand Surface,Recreation,Human Health,1,Medium,Gloves
+140,Tent Fabric,Recreation,Synthetic,Medium,Synthetic fabric pollution,3,12.5,Large,800,5000,Medium,No,No,500 years,Landfill,No,Beach Areas,Recreation,Environmental,1,Medium,Cutting Tools
+141,Sleeping Bag Material,Recreation,Synthetic,Medium,Insulation and synthetic materials,3,25.8,Large,1500,8000,Medium,No,No,500 years,Landfill,No,Beach Areas,Recreation,Environmental,1,Medium,Cutting Tools
+142,Camping Chairs,Recreation,Metal Fabric,Medium,Mixed materials outdoor furniture,3,35.2,Large,2800,15000,Hard,Partial,Partial,50 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Tools
+143,Folding Tables,Recreation,Metal Plastic,Medium,Outdoor furniture components,3,45.8,Large,5500,25000,Hard,Partial,No,100 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Tools
+144,Camping Cookware,Recreation,Metal Plastic,Medium,Outdoor cooking equipment,3,15.2,Medium,350,800,Easy,Partial,No,100 years,Mixed Disposal,No,Picnic Areas,Recreation,Environmental,1,Medium,Gloves
+145,Portable Grills,Recreation,Metal,Medium,Outdoor cooking equipment,3,85.2,Large,8500,20000,Hard,Yes,No,200 years,Scrap Metal,No,Beach Areas,Recreation,Environmental,1,Medium,Heavy Equipment
+146,Propane Canisters,Recreation,Metal,High,Pressurized gas containers,4,25.8,Medium,400,500,Hard,Yes,No,200 years,Hazardous Waste,Yes,Beach Areas,Recreation,Environmental,1,High,Safety Equipment
+147,Charcoal Bags,Recreation,Paper Plastic,Low,Charcoal packaging materials,2,1.2,Large,50,2000,Easy,Partial,Partial,6 months,Landfill,No,Beach Areas,Recreation,Environmental,2,Low,Gloves
+148,Lighter Fluid Bottles,Recreation,Plastic,High,Flammable chemical contamination,4,5.2,Medium,125,350,Easy,No,No,450 years,Hazardous Waste,Yes,Beach Areas,Recreation,Environmental,1,High,Safety Equipment
+149,Matches,Recreation,Wood Chemicals,Medium,Chemical ignition materials,3,0.5,Small,2,8,Easy,No,Partial,6 months,Landfill,No,Sand Surface,Recreation,Environmental,3,Medium,Gloves
+150,Candles,Recreation,Wax Wick,Low,Natural wax generally biodegradable,2,2.8,Small,50,80,Easy,No,Yes,1 year,Compost,No,Sand Surface,Recreation,Environmental,2,Low,Gloves
+151,Citronella Torches,Recreation,Metal Wax,Medium,Insect repellent chemicals,3,15.2,Large,800,1500,Medium,Partial,Partial,10 years,Mixed Disposal,Yes,Beach Areas,Recreation,Environmental,1,Medium,Tools
+152,Insect Repellent Bottles,Personal Items,Plastic,Medium,Chemical contamination,3,2.5,Medium,85,250,Easy,Yes,No,450 years,Recycle Bin,Yes,Beach Areas,Personal Waste,Environmental,3,Medium,Gloves
+153,Sunscreen Tubes,Personal Items,Plastic,Medium,Chemical contamination affects marine life,3,1.8,Small,45,120,Easy,Yes,No,450 years,Recycle Bin,Yes,Beach Areas,Personal Waste,Environmental,6,Medium,Gloves
+154,Lip Balm Tubes,Personal Items,Plastic,Medium,Small plastic contamination,3,0.2,Small,3,8,Easy,No,No,400 years,Landfill,No,Sand Surface,Personal Waste,Environmental,4,Medium,Gloves
+155,Deodorant Containers,Personal Items,Plastic Metal,Medium,Chemical residue contamination,3,3.8,Medium,125,200,Easy,Partial,No,400 years,Mixed Disposal,Yes,Beach Areas,Personal Waste,Environmental,2,Medium,Gloves
+156,Perfume Bottles,Personal Items,Glass Plastic,Medium,Chemical contamination and glass fragments,3,5.2,Small,85,150,Medium,Partial,No,1000000 years,Mixed Disposal,Yes,Sand Surface,Personal Waste,Environmental,1,Medium,Safety Gloves
+157,Makeup Containers,Personal Items,Plastic,Medium,Chemical contamination small containers,3,1.2,Small,15,40,Easy,Partial,No,400 years,Landfill,Yes,Sand Surface,Personal Waste,Environmental,3,Medium,Gloves
+158,Nail Polish Bottles,Personal Items,Glass Plastic,High,Toxic chemical contamination,4,0.8,Small,12,25,Medium,No,No,1000000 years,Hazardous Waste,Yes,Sand Surface,Personal Waste,Environmental,1,High,Safety Gloves
+159,Hair Spray Cans,Personal Items,Metal,Medium,Aerosol and chemical contamination,3,5.2,Medium,185,400,Medium,No,No,200 years,Hazardous Waste,Yes,Beach Areas,Personal Waste,Environmental,2,Medium,Safety Equipment
+160,Shaving Cream Cans,Personal Items,Metal,Medium,Aerosol pressure and chemicals,3,4.5,Medium,165,380,Medium,No,No,200 years,Hazardous Waste,Yes,Beach Areas,Personal Waste,Environmental,1,Medium,Safety Equipment
+161,Disposable Razors,Personal Items,Plastic Metal,High,Sharp blades and plastic pollution,4,0.8,Small,12,20,Hard,No,No,400 years,Hazardous Waste,Yes,Sand Surface,Personal Waste,Human Health,3,High,Safety Gloves
+162,Electric Razors,Electronics,Metal Plastic,Medium,Electronic waste and batteries,3,15.2,Medium,250,400,Medium,Yes,No,100 years,E-Waste,Yes,Beach Areas,Personal Waste,Environmental,1,Medium,Gloves
+163,Hair Dryers,Electronics,Plastic Metal,Medium,Electronic waste large appliance,3,45.8,Large,800,2000,Medium,Yes,No,100 years,E-Waste,Yes,Beach Areas,Personal Waste,Environmental,1,Medium,Gloves
+164,Curling Irons,Electronics,Metal Plastic,Medium,Electronic heating elements,3,8.5,Medium,185,300,Easy,Partial,No,100 years,E-Waste,Yes,Beach Areas,Personal Waste,Environmental,1,Medium,Gloves
+165,Phone Chargers,Electronics,Plastic Metal,Medium,Electronic waste and copper,3,2.8,Small,45,80,Easy,Yes,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,4,Medium,Gloves
+166,Power Banks,Electronics,Plastic Metal,High,Lithium battery fire hazard,4,25.8,Medium,350,500,Medium,Yes,No,100 years,Hazardous Waste,Yes,Sand Surface,Consumer Waste,Environmental,3,High,Safety Equipment
+167,Headphones,Electronics,Plastic Metal,Medium,Electronic waste and small parts,3,5.2,Small,125,200,Easy,Partial,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,3,Medium,Gloves
+168,Earbuds,Electronics,Plastic Metal,Medium,Small electronic waste,3,0.8,Small,8,15,Easy,Partial,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Wildlife,5,Medium,Gloves
+169,USB Cables,Electronics,Plastic Metal,Medium,Electronic waste and copper,3,1.8,Small,35,50,Easy,Yes,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,4,Medium,Gloves
+170,Memory Cards,Electronics,Plastic Metal,Medium,Electronic components,3,0.2,Small,2,5,Easy,Partial,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,2,Medium,Gloves
+171,Camera Batteries,Electronics,Mixed,Very High,Toxic battery chemicals,5,2.5,Small,25,20,Medium,Yes,No,100 years,Hazardous Waste,Yes,Sand Surface,Consumer Waste,Environmental,2,Very High,Safety Equipment
+172,Alkaline Batteries,Electronics,Mixed,Very High,Toxic heavy metals,5,1.8,Small,18,15,Easy,Yes,No,100 years,Hazardous Waste,Yes,Sand Surface,Consumer Waste,Environmental,4,Very High,Safety Equipment
+173,Lithium Batteries,Electronics,Mixed,Very High,Fire hazard and toxic metals,5,5.2,Small,45,25,Medium,Yes,No,100 years,Hazardous Waste,Yes,Sand Surface,Consumer Waste,Environmental,3,Very High,Safety Equipment
+174,Remote Controls,Electronics,Plastic Metal,Medium,Electronic waste and batteries,3,8.5,Small,125,300,Easy,Partial,No,100 years,E-Waste,Yes,Beach Areas,Consumer Waste,Environmental,2,Medium,Gloves
+175,Calculators,Electronics,Plastic Metal,Medium,Electronic waste small device,3,2.8,Small,65,150,Easy,Partial,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,1,Medium,Gloves
+176,Digital Cameras,Electronics,Plastic Metal,Medium,Electronic waste complex device,3,25.8,Medium,285,500,Medium,Yes,No,100 years,E-Waste,Yes,Sand Surface,Consumer Waste,Environmental,2,Medium,Gloves
+177,Action Cameras,Electronics,Plastic Metal,Medium,Waterproof electronic waste,3,15.2,Small,125,150,Easy,Yes,No,100 years,E-Waste,Yes,Beach Areas,Recreation,Environmental,2,Medium,Gloves
+178,Fitness Trackers,Electronics,Plastic Metal,Medium,Wearable electronic waste,3,2.8,Small,35,50,Easy,Partial,No,100 years,E-Waste,Yes,Beach Areas,Personal Waste,Environmental,3,Medium,Gloves
+179,Smart Watches,Electronics,Metal Plastic,Medium,Complex electronic waste,3,15.2,Small,85,100,Easy,Yes,No,100 years,E-Waste,Yes,Beach Areas,Personal Waste,Environmental,2,Medium,Gloves
+180,Bluetooth Speakers,Electronics,Plastic Metal,Medium,Electronic waste and batteries,3,12.5,Medium,450,800,Easy,Yes,No,100 years,E-Waste,Yes,Beach Areas,Recreation,Environmental,3,Medium,Gloves
+181,Portable Radios,Electronics,Plastic Metal,Medium,Electronic waste traditional device,3,18.5,Medium,650,1200,Easy,Yes,No,100 years,E-Waste,Yes,Beach Areas,Recreation,Environmental,1,Medium,Gloves
+182,Walkie Talkies,Electronics,Plastic Metal,Medium,Communication device waste,3,8.5,Small,185,400,Easy,Yes,No,100 years,E-Waste,Yes,Beach Areas,Recreation,Environmental,1,Medium,Gloves
+183,Binoculars,Recreation,Metal Plastic,Medium,Optical equipment waste,3,25.8,Medium,650,1000,Easy,Partial,No,200 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Gloves
+184,Compasses,Recreation,Metal Plastic,Low,Navigation equipment minimal impact,2,1.8,Small,25,40,Easy,Partial,No,100 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Low,Gloves
+185,Whistles,Recreation,Metal Plastic,Low,Safety equipment minimal impact,2,0.5,Small,8,15,Easy,Partial,No,100 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,2,Low,Gloves
+186,Life Jackets,Safety Equipment,Foam Fabric,Medium,Foam insulation and synthetic fabric,3,35.2,Large,850,8000,Medium,No,No,500 years,Landfill,No,Water Edge,Safety,Environmental,2,Medium,Cutting Tools
+187,Pool Noodles,Recreation,Foam,High,Foam pollution breaks into pieces,4,8.5,Large,125,5000,Easy,No,No,500 years,Landfill,Yes,Water Edge,Recreation,Environmental,3,High,Cutting Tools
+188,Kickboards,Recreation,Foam,Medium,Foam swimming aid pollution,3,12.5,Large,350,8000,Easy,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Gloves
+189,Swim Fins,Recreation,Rubber Plastic,Medium,Synthetic swimming equipment,3,15.2,Large,450,2000,Easy,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Gloves
+190,Snorkels,Recreation,Plastic Rubber,Medium,Swimming equipment pollution,3,2.8,Medium,85,200,Easy,No,No,400 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Gloves
+191,Diving Masks,Recreation,Silicone Plastic,Medium,Diving equipment synthetic materials,3,5.2,Medium,185,400,Easy,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Gloves
+192,Wetsuits,Recreation,Neoprene,Medium,Synthetic rubber pollution,3,85.2,Large,2500,5000,Hard,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,1,Medium,Cutting Tools
+193,Surfboard Wax,Recreation,Wax Chemicals,Medium,Chemical surf wax contamination,3,0.8,Small,85,100,Medium,No,Partial,1 year,Landfill,No,Beach Areas,Recreation,Environmental,3,Medium,Scraping Tools
+194,Surfboard Leashes,Recreation,Polyurethane,Medium,Synthetic cord pollution,3,2.8,Medium,125,400,Easy,No,No,500 years,Landfill,No,Water Edge,Recreation,Environmental,2,Medium,Cutting Tools
+195,Beach Chairs,Recreation,Metal Fabric,Medium,Outdoor furniture mixed materials,3,45.8,Large,3500,25000,Hard,Partial,Partial,50 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,2,Medium,Tools
+196,Beach Tents,Recreation,Fabric Metal,Medium,Synthetic shelter materials,3,25.8,Large,2800,15000,Medium,Partial,No,200 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Cutting Tools
+197,Sand Anchors,Recreation,Metal Plastic,Medium,Beach equipment anchoring systems,3,8.5,Medium,285,500,Medium,Partial,No,100 years,Mixed Disposal,No,Sand Surface,Recreation,Environmental,1,Medium,Tools
+198,Beach Carts,Recreation,Metal Plastic,Medium,Transport equipment mixed materials,3,125.8,Large,8500,50000,Hard,Partial,No,100 years,Mixed Disposal,No,Beach Areas,Recreation,Environmental,1,Medium,Heavy Equipment
+199,Cooler Ice,Consumables,Water,Very Low,Melts into natural water,1,0,Various,1000,1000,Easy,No,Yes,Immediate,Natural,No,Cooler Areas,Recreation,Environmental,5,Very Low,None
+200,Picnic Blankets,Recreation,Fabric,Medium,Synthetic fabric pollution,3,12.5,Large,650,8000,Easy,No,Partial,200 years,Landfill,No,Picnic Areas,Recreation,Environmental,3,Medium,Gloves

@@ -10,6 +10,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import AdminCreateEvent from './pages/AdminCreateEvent';
 import EventCard from './components/EventCard';
 import EventsList from './components/EventList';
+import MlReport from './components/MlReport';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/admin-dashboard' element={<AdminDashboard />} />
         <Route path='/admin/create-event' element={<AdminCreateEvent />} />
         <Route path='/events' element={<EventsList />} />
+        <Route path='/ml-report' element={<MlReport />} />
       </Routes>
     </Router>
   );
