@@ -21,6 +21,7 @@ function BasicExample() {
             <Nav.Link as={Link} to="/events">Events</Nav.Link>
             <Nav.Link as={Link} to="/ml-report">Ml report</Nav.Link>
             <Nav.Link as={Link} to="/charts">charts</Nav.Link>
+            <Nav.Link as={Link} to="/maps">Maps</Nav.Link>
 
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/action1">Action</NavDropdown.Item>
