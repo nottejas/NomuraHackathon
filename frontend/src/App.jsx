@@ -14,6 +14,8 @@ import EventCard from './components/EventCard';
 import EventsList from './components/EventList';
 import MlReport from './components/MlReport';
 import ChakraEventCard from './components/chakra-comps/ChakraEventCard';
+import Barchart from './components/d3/Barchart';
+import ChartPage from './components/d3/ChartPage';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
           <Route path="/admin/create-event" element={<AdminCreateEvent />} />
           <Route path="/events" element={<ChakraEventCard />} /> // added to show harcoded events good for hackathon day maybe
           {/* <Route path="/events" element={<EventsList />} /> // true events */}
+          <Route path="/charts" element={<ChartPage />} />
           <Route path="/ml-report" element={<MlReport />} />
         </Routes>
 
