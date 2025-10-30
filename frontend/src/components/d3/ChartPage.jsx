@@ -15,7 +15,7 @@ const ChartPage = () => {
             <h2>Bar chart</h2>
             <Barchart />
 
-            <h2>PieChart</h2>
+            <h2 className="bg-blue-400">PieChart</h2>
             <Piechart data={piedata} />
         </div>
     )

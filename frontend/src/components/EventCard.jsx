@@ -14,7 +14,7 @@ export default function EventCard({ event }) {
   
     return (
       <div>
-        <h3>{event.title}</h3>
+        <h3 className="bg-red-400">{event.title}</h3>
         <p>{event.description}</p>
         <button onClick={handleEnroll}>Enroll</button>
       </div>

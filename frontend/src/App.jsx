@@ -1,6 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
+import './App.css';
 
 import Home from './components/Home';
 import LoginForm from './components/LoginForm';
@@ -27,7 +28,7 @@ function App() {
       <Router>
         <BasicExample />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} className="bg-red-400" />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/chat" element={<Chatbot />} />
