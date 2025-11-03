@@ -7,6 +7,8 @@ const Piechart = ({ data }) => {
         const width = 928;
         const height = Math.min(width, 500);
 
+        d3.select(ref.current).selectAll("*").remove();
+
         // Create the color scale.
         const color = d3.scaleOrdinal()
             .domain(data.map(d => d.name))
@@ -71,7 +73,7 @@ const Piechart = ({ data }) => {
             d3.select(ref.current).select("svg").remove() // added this return statment for cleanups
         }
     }, [data])
-    return <div ref={ref} width={450} height={450}></div>
+    return <div ref={ref} className="w-2xl h-auto"></div>
 
 }
 

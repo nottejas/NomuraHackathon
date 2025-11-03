@@ -22,6 +22,8 @@ function AdminLogin() {
       localStorage.setItem('admin', JSON.stringify({ username }));
       navigate('/admin-dashboard');
     } else {
+
+      
       alert(data.msg);
     }
   };

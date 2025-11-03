@@ -21,7 +21,7 @@ import ChartPage from './components/d3/ChartPage';
 import Leaflet from './components/maps/Leaflet';
 import GeoLoc from './components/maps/GeoLoc';
 import NearbyEvents from './components/maps/NearbyEvents';
-
+import './App.css';
 function App() {
   return (
     <ChakraProvider>
