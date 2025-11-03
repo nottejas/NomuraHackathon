@@ -37,7 +37,7 @@ function AdminLogin() {
             <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-3xl">🔒</span>
             </div>
-            <h1 className="text-4xl font-bold text-gradient-primary mb-2">Admin Portal</h1>
+            <h1 className="text-4xl text-blue-50 font-bold text-gradient-primary mb-2">Admin Portal</h1>
             <p className="text-gray-400">Secure administrative access</p>
           </div>
 
@@ -73,7 +73,7 @@ function AdminLogin() {
 
             <button
               type="submit"
-              className="w-full btn-gradient py-3 rounded-lg font-semibold text-white shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+              className="w-full btn-gradient py-3 rounded-lg font-semibold text-black shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
               🔑 Access Admin Dashboard
             </button>

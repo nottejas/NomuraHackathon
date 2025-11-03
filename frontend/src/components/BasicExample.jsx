@@ -37,6 +37,11 @@ function BasicExample() {
             }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
               🎉 Events
             </Nav.Link>
+            <Nav.Link as={Link} to="/teams" className="text-white-50 fw-semibold px-3" style={{
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
+              👥 Teams
+            </Nav.Link>
             <Nav.Link as={Link} to="/chat" className="text-white-50 fw-semibold px-3" style={{
               transition: 'all 0.3s ease'
             }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
@@ -47,28 +52,30 @@ function BasicExample() {
             }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
               📊 Analytics
             </Nav.Link>
+            <Nav.Link as={Link} to="/impact" className="text-white-50 fw-semibold px-3" style={{
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
+              🌍 Impact
+            </Nav.Link>
             <Nav.Link as={Link} to="/maps" className="text-white-50 fw-semibold px-3" style={{
               transition: 'all 0.3s ease'
             }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
               🗺️ Maps
             </Nav.Link>
+            <Nav.Link as={Link} to="/weather" className="text-white-50 fw-semibold px-3" style={{
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
+              ☀️ Weather
+            </Nav.Link>
+            <Nav.Link as={Link} to="/profile" className="text-white-50 fw-semibold px-3" style={{
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
+              👤 Profile
+            </Nav.Link>
 
-            <NavDropdown title="⚙️ More" id="basic-nav-dropdown" className="text-white-50 fw-semibold" style={{
-              color: 'rgba(255, 255, 255, 0.5)'
+            <NavDropdown title="⚙️ More" id="basic-nav-dropdown" className="text-white-50 fw-semibold px-3" style={{
+              transition: 'all 0.3s ease'
             }}>
-              <NavDropdown.Item as={Link} to="/qr" style={{
-                background: 'rgba(15, 23, 42, 0.95)',
-                color: '#cbd5e1',
-                transition: 'all 0.3s ease'
-              }} onMouseEnter={(e) => {
-                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
-                e.target.style.color = '#667eea';
-              }} onMouseLeave={(e) => {
-                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
-                e.target.style.color = '#cbd5e1';
-              }}>
-                QR Code
-              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/ml-report" style={{
                 background: 'rgba(15, 23, 42, 0.95)',
                 color: '#cbd5e1',
@@ -81,6 +88,84 @@ function BasicExample() {
                 e.target.style.color = '#cbd5e1';
               }}>
                 ML Reports
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/leaderboard" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                🏆 Leaderboard
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/rewards" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                🎖️ Rewards
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/gallery" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                📸 Gallery
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/resources" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                📚 Resources
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/feedback" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                ⭐ Feedback
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/sponsors" style={{
+                background: 'rgba(15, 23, 42, 0.95)',
+                color: '#cbd5e1',
+                transition: 'all 0.3s ease'
+              }} onMouseEnter={(e) => {
+                e.target.style.background = 'rgba(102, 126, 234, 0.2)';
+                e.target.style.color = '#667eea';
+              }} onMouseLeave={(e) => {
+                e.target.style.background = 'rgba(15, 23, 42, 0.95)';
+                e.target.style.color = '#cbd5e1';
+              }}>
+                🤝 Sponsors
               </NavDropdown.Item>
               <NavDropdown.Divider style={{ borderColor: 'rgba(255, 255, 255, 0.1)' }} />
               <NavDropdown.Item as={Link} to="/admin-login" style={{
@@ -99,6 +184,14 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
           <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/notifications" className="position-relative" style={{
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => e.target.style.color = '#667eea'} onMouseLeave={(e) => e.target.style.color = ''}>
+              <span className="text-2xl">🔔</span>
+              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style={{ fontSize: '0.6rem' }}>
+                3
+              </span>
+            </Nav.Link>
             <Link to="/login" className="btn me-2" style={{
               background: 'transparent',
               border: '2px solid #667eea',

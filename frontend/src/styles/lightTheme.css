@@ -1,0 +1,62 @@
+/* Light Theme - Matching Home Page Design */
+
+.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-card: #f9fafb;
+  --border-color: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* Light page backgrounds */
+.page-light {
+  background: #ffffff;
+  min-height: 100vh;
+  padding: 6rem 1rem 2rem;
+}
+
+/* Light cards */
+.card-light {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-light:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Light text colors */
+.text-light-primary {
+  color: #111827;
+}
+
+.text-light-secondary {
+  color: #6b7280;
+}
+
+.text-light-muted {
+  color: #9ca3af;
+}
+
+/* Light buttons */
+.btn-light-primary {
+  background: #3b82f6;
+  color: #ffffff;
+  border: 2px solid #111827;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-light-primary:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+}

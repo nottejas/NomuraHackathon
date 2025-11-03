@@ -93,12 +93,24 @@ function Home() {
           <h2 className="text-2xl font-bold mb-6 text-gray-900">
             Quick Actions
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
+            <a
+              href="/profile"
+              className="bg-indigo-600 border-4 border-gray-900 text-black text-center py-4 rounded-xl hover:bg-indigo-700 transition-transform hover:scale-105"
+            >
+              👤 My Profile
+            </a>
             <a
               href="/events"
               className="bg-blue-600 border-4 border-gray-900 text-black text-center py-4 rounded-xl hover:bg-blue-700 transition-transform hover:scale-105"
             >
               Browse Events
+            </a>
+            <a
+              href="/leaderboard"
+              className="bg-yellow-500 border-4 border-gray-900 text-black text-center py-4 rounded-xl hover:bg-yellow-600 transition-transform hover:scale-105"
+            >
+              🏆 Leaderboard
             </a>
             <a
               href="/chat"
@@ -107,8 +119,14 @@ function Home() {
               Chat Now
             </a>
             <a
-              href="/charts"
+              href="/impact"
               className="bg-green-600 border-4 border-gray-900 text-black text-center py-4 rounded-xl hover:bg-green-700 transition-transform hover:scale-105"
+            >
+              🌍 Impact
+            </a>
+            <a
+              href="/charts"
+              className="bg-teal-600 border-4 border-gray-900 text-black text-center py-4 rounded-xl hover:bg-teal-700 transition-transform hover:scale-105"
             >
               View Charts
             </a>
